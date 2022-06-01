@@ -1,0 +1,236 @@
+#header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(45, 45, 45);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 20px;
+    z-index: 100;
+    opacity: 0.9;
+}
+
+#header a {
+    color: white;
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    height: 3000px;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+#showcase {
+    position: relative;
+    height: 700px;
+}
+
+#showcase-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#showcase-1,
+#showcase-2,
+#showcase-3,
+#showcase-4 {
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#showcase-1 {
+    font-size: 60px;
+    top: 160px;
+}
+
+#showcase-2 {
+    font-size: 30px;
+    top: 300px;
+    white-space: nowrap;
+}
+
+#showcase-3 {
+    font-size: 20px;
+    top: 370px;
+    white-space: nowrap;
+}
+
+#showcase-4 {
+    margin-top: 8px;
+}
+
+#mockup {
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+    padding-top: 10px;
+    background-color: rgb(45, 45, 45);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#mockup-img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+#mockup-1 {
+    padding-top: 20px;
+    font-size: 40px;
+    color: white;
+    margin-top: 0px;
+}
+
+#mockup-2 {
+    font-size: 30px;
+    color: white;
+}
+
+#mockup-3 {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#trial-button {
+    display: block;
+    padding: 18px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(174, 0, 0);
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#trial-button:hover {
+    background-color: rgb(214, 0, 0);
+}
+
+#mockup-4 {
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#mockup2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#mockup2-1 {
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+#mockup2-2 {
+    font-size: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: -10px;
+}
+
+#read-more-button {
+    padding: 18px;
+    color: white;
+    background-color: rgb(0, 58, 139);
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#read-more-button:hover {
+    background-color: rgb(0, 77, 185);
+}
+
+#mockup2-img {
+    margin-bottom: 30px;
+}
+
+#section {
+    height: 550px;
+    position: relative;
+    text-align: center;
+}
+
+#section-text {
+    color: white;
+    position: absolute;
+    top: 30%;
+}
+
+#section-img {
+    height: 100%;
+    width: 100%;
+}
+
+#section-heading {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#section-paragraph {
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 35px;
+}
+
+#gift-card {
+    display: flex;
+    justify-content: center;
+    object-fit: center;
+}
+
+#img-container {
+    position: relative;
+    width: 50%;
+}
+
+#img-text-container {
+    width: 50%;
+    height: auto;
+}
+
+#card-img {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
+
+#cards-heading {
+    font-size: 24px;
+}
+
+.cards-paragraph, #cards-redeem {
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 200px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
